@@ -21,13 +21,13 @@ const ruleForJavaScript =
     }
 const ruleForStyle = 
     {
-        test: /\.css|sa?ss$/i,
+        test: /\.(css|scss|sass)$/i,
         /** use: [MiniCssExtractPlugin.loader,"css-loader"], **/
         use: [
             {
                 loader: MiniCssExtractPlugin.loader,
                 options: {
-                    publicPath: './',
+                    publicPath: '/',
                 }
             },
             'css-loader',
