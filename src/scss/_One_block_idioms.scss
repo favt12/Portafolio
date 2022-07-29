@@ -1,0 +1,53 @@
+@import './Variables';
+
+section {
+   background-color: $primaryColor;
+        .nav-pills {
+            margin-left: 6px;
+            .nav-link{
+                border-radius: 0;
+                background-color: #474747;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 900;
+            }
+            .nav-link.active {
+                background-color: $primaryColor;
+                transition: 1s;
+            }
+            .nav-link.active::after {
+                content: '•';
+                margin-left: 20px;
+                color: rgb(11, 243, 115);
+            }
+        }
+        .nav-item:not(:nth-last-child(1)) .nav-link {
+            border-right: 1px solid $primaryColor;
+
+        }
+        .tab-content {
+            .color-cele {
+                color: #71E9F0;
+            }
+            .color-ros {
+                color: #FAC1BD;
+            }
+            .color-mozt {
+                color: #B8BB22;
+            }
+            .color-ocr {
+                color: #EC8666;
+            }
+            .color-gris {
+                color: #a7a7a7;
+            }
+
+            .idioms-text-formt {
+                font-weight: 300;
+                font-size: 16px;
+            }
+            .margTop {
+                margin-top: -15px;
+            }
+        }
+}
