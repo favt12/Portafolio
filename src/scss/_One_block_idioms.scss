@@ -9,10 +9,11 @@ section {
                 background-color: #474747;
                 color: #fff;
                 font-size: 14px;
-                font-weight: 900;
+                font-family: 'Ubuntu', sans-serif;
+                font-weight: 800;
             }
             .nav-link.active {
-                background-color: $primaryColor;
+                background-color: $secundaryColor;
                 transition: 1s;
             }
             .nav-link.active::after {
@@ -26,28 +27,50 @@ section {
 
         }
         .tab-content {
-            .color-cele {
-                color: #71E9F0;
-            }
-            .color-ros {
-                color: #FAC1BD;
-            }
-            .color-mozt {
-                color: #B8BB22;
-            }
-            .color-ocr {
-                color: #EC8666;
-            }
-            .color-gris {
-                color: #a7a7a7;
-            }
-
+            margin-top: 6rem;
             .idioms-text-formt {
                 font-weight: 300;
                 font-size: 16px;
+                font-family: 'Ubuntu', sans-serif;
+                @media only screen and (min-width: 1024px) { 
+                    font-weight: 900;
+                    font-size: 35px;
+                }
+            
             }
             .margTop {
                 margin-top: -15px;
             }
+
+            .padd-l{
+                @media only screen and (min-width: 1024px) {
+                    margin-left: 260px;
+                }        
+            }
         }
+        
+    .typewr {
+        
+        font-weight:300;
+        font-size:26px;
+        font-family: 'Inter', sans-serif;
+        min-height: 40vh;
+        border: 1px solid #6F6F6F;
+       
+        @media only screen and (min-width: 1024px) {
+            font-size: 50px;
+        }
+        .cons-text {
+            small {
+                font-size: 15px;
+                border-bottom: 2px solid #6F6F6F;
+                color: #6F6F6F;
+            }
+        }
+        .Typewriter {
+            text-align: center;
+            margin-top: 120px;
+            
+        }
+    }
 }
