@@ -5,10 +5,6 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 5rem;
-    padding: 0 2rem;
-    background-color: $primaryColor;
-    color: white;
-    z-index: 1;
     nav {
         display: flex;
         position: fixed;
@@ -23,6 +19,7 @@ header {
         background-color: $primaryColor;
         transition: 1s;
         transform: translateY(-100vh);
+        z-index: 1;
         @media only screen and (min-width: 1024px) {
             flex-direction: row;
             transform: none;
@@ -32,7 +29,7 @@ header {
         a {
             margin: 0 2rem;
             font-size: 2rem;
-            font-family: 'Inter', sans-serif;
+            font-family: 'Inter',sans-serif;
             color: white;
             text-decoration: none;
             @media only screen and (min-width: 1024px) {
