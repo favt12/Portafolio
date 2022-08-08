@@ -1,16 +1,16 @@
 import { Container, Row, Col, Tabs, Tab } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Typewriter from "typewriter-effect";
+import { Collapse } from 'bootstrap';
 
 
 function OneBlock() {
   return (
-    <section className='OneBlock'>
-        <Container>
+    <section className='OneBlock container'>
             <Row className='py-5'>
-                <Tabs justify variant='pills' defaultActiveKey='tab-1'>
+                <Tabs variant='pills' defaultActiveKey='tab-1'>
                     <Tab eventKey='tab-1' title='.js'>
-                        <Row className='py-5 px-2'>
+                        <Row className='px-2 --padding-tp'>
                             <Col xs={1}>
                                     <p className='text-center color-gray idioms-text-formt'>1</p>
                             </Col>
@@ -25,25 +25,27 @@ function OneBlock() {
                             </Col>
                         </Row>
                         <Row>
-                <div className='typewr'>
-                    <div className='cons-text'>
-                        <small>Console</small>
-                    </div>
-                    <Typewriter
-                
-                    onInit={(typewriter)=> {
-                
-                    typewriter
-                        
-                    .typeString('My name is Alexis Vásquez and I am a Web Developer')   
-                    .pauseFor(800)
-                    .start();
-                    }}
-                    />
-                </div>
-            </Row>       
+                            <Col className='typewr'>
+                                <div className='console-text'>
+                                    <small>Console</small>
+                                </div>
+                                <div className='--padding-tp'>
+                                    <Typewriter
+                                
+                                    onInit={(typewriter)=> {
+                                
+                                    typewriter
+                                        
+                                    .typeString('My name is Alexis Vásquez and I am a Web Developer')   
+                                    .pauseFor(800)
+                                    .start();
+                                    }}
+                                    />
+                                </div>
+                            </Col>
+                        </Row>       
                     </Tab>
-                    <Tab eventKey='tab-2' title='.php'>
+                    <Tab eventKey='tab-2' title={'.php'}>
                         dd  
                     </Tab>
                     <Tab eventKey='tab-3' title='.py'>
@@ -54,7 +56,6 @@ function OneBlock() {
                     </Tab>
                 </Tabs>
             </Row>
-        </Container>
     </section>
   );
 }
