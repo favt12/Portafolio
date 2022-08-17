@@ -1,7 +1,9 @@
 @import './Variables';
 
-section {
-   background-color: $primaryColor;
+section.OneBlock {
+    height: 100%;
+    width: 100%;
+    background-color: $primaryColor;
         .nav-pills {
             justify-content: center;
             padding-right: 0;
@@ -37,9 +39,9 @@ section {
 
         }
         .tab-content {
-            .--padding-tp {
-                padding: 6rem 0 6rem 0;
-                @media only screen and (min-width: 1024px) {
+            .--padding-tb {
+                padding: 4.5rem 0 4.5rem 0;
+                @media only screen and (min-width: 1420px) {
                     padding: 7.5rem 0 7.5rem 0;
                 } 
             }
@@ -61,16 +63,12 @@ section {
             }
 
             .padd-l{
-                @media only screen and (min-width: 1024px) {
-                    margin-left: 260px;
-                    @media only screen and (min-width: 1024px) { 
-                        margin-left: 200px;
-                        @media only screen and (min-width: 1420px) { 
-                            margin-left: 260px;
-                        }
+                @media only screen and (min-width: 1024px) { 
+                    margin-left: 200px;
+                    @media only screen and (min-width: 1420px) { 
+                        margin-left: 260px;
                     }
-                    
-                }        
+                }          
             }
         }
     .typewr {
