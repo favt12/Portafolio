@@ -10,7 +10,7 @@ function OneBlock() {
             <Row className='py-5'>
                 <Tabs variant='pills' defaultActiveKey='tab-1'>
                     <Tab eventKey='tab-1' title='.js'>
-                        <Row className='px-2 --padding-tp'>
+                        <Row className='px-2 --padding-tb'>
                             <Col xs={1}>
                                     <p className='text-center color-gray idioms-text-formt'>1</p>
                             </Col>
@@ -29,7 +29,7 @@ function OneBlock() {
                                 <div className='console-text'>
                                     <small>Console</small>
                                 </div>
-                                <div className='--padding-tp'>
+                                <div className='--padding-tb'>
                                     <Typewriter
                                 
                                     onInit={(typewriter)=> {
