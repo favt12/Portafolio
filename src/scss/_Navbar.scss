@@ -5,6 +5,11 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 5rem;
+    .--Navbar-logo {
+        @media only screen and (min-width: 1024px) {
+            display: none;
+        }
+    }
     nav {
         display: flex;
         position: fixed;
@@ -25,6 +30,7 @@ header {
             transform: none;
             position: relative;
             justify-content: end;
+            margin-left: 5rem;
         }
         a {
             margin: 0 2rem;
