@@ -12,7 +12,7 @@ function Navbar() {
     }
     return (
             <header className='container'>
-                <div>
+                <div className='--Navbar-logo'>
                     <img src={logo} alt='img'/>
                 </div>
                 <nav ref={navRef}>
