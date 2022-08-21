@@ -3,7 +3,9 @@
 section.OneBlock {
     height: 100%;
     width: 100%;
-    background-color: $primaryColor;
+    @media only screen and (min-width: 1024px) {
+        padding: 3rem;
+    }
         .nav-pills {
             justify-content: center;
             padding-right: 0;
@@ -40,10 +42,7 @@ section.OneBlock {
         }
         .tab-content {
             .--padding-tb {
-                padding: 4.5rem 0 4.5rem 0;
-                @media only screen and (min-width: 1420px) {
-                    padding: 7.5rem 0 7.5rem 0;
-                } 
+                padding: 6.5rem 0 6.5rem 0; 
             }
             .idioms-text-formt {
                 font-weight: 300;
