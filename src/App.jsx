@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import OneBlock from './components/OneBlock';
+import DataFix from './components/DataContactFix';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
             <React.Fragment>
                 <Navbar />
                 <OneBlock />
+                <DataFix />
             </React.Fragment>
         </React.StrictMode>    
     );
