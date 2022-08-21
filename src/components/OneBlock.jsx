@@ -1,7 +1,6 @@
 import { Container, Row, Col, Tabs, Tab } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Typewriter from "typewriter-effect";
-import { Collapse } from 'bootstrap';
 
 
 function OneBlock() {
