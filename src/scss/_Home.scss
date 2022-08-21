@@ -1,0 +1,96 @@
+@import './Variables';
+
+section.OneBlock {
+    height: 100%;
+    width: 100%;
+    @media only screen and (min-width: 1024px) {
+        padding-left: 5rem;
+    }
+        .nav-pills {
+            justify-content: center;
+            padding-right: 0;
+            @media only screen and (min-width: 1024px) {
+                justify-content: start;
+            }
+            .nav-link{
+                border-radius: 0;
+                background-color: #474747;
+                color: #fff;
+                padding-left: 1.2rem;
+                padding-right: 1.2rem;
+                font-size: 14px;
+                font-family: 'Inter', sans-serif;
+                font-weight: 800;
+                @media only screen and (min-width: 1024px) {
+                    padding-left: 3.5rem;
+                    padding-right: 3.5rem;
+                }
+            }
+            .nav-link.active {
+                background-color: $secundaryColor;
+                transition: 1s;
+            }
+            .nav-link.active::after {
+                content: '•';
+                margin-left: 10px;
+                color: rgb(11, 243, 115);
+            }
+        }
+        .nav-item:not(:nth-last-child(1)) .nav-link {
+            border-right: 1px solid $primaryColor;
+
+        }
+        .tab-content {
+            .--padding-tb {
+                padding: 6.5rem 0 6.5rem 0; 
+            }
+            .idioms-text-formt {
+                font-weight: 300;
+                font-size: 14px;
+                font-family: 'Ubuntu', sans-serif;
+                @media only screen and (min-width: 1024px) { 
+                    font-weight: 900;
+                    font-size: 20px;
+                    @media only screen and (min-width: 1420px) { 
+                        font-size: 30px;
+                    }
+                }   
+            
+            }
+            .margTop {
+                margin-top: -15px;
+            }
+
+            .padd-l{
+                @media only screen and (min-width: 1024px) { 
+                    margin-left: 200px;
+                    @media only screen and (min-width: 1420px) { 
+                        margin-left: 260px;
+                    }
+                }          
+            }
+        }
+    .typewr {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.6rem;
+        font-weight:300;
+        border: 1px solid #6F6F6F;
+        @media only screen and (min-width: 1024px) {
+            font-size: 2.1rem;
+            @media only screen and (min-width: 1420px) { 
+                font-size: 3.1rem;
+            }
+        }
+        .console-text {
+            small {
+                font-size: 15px;
+                border-bottom: 2px solid #6F6F6F;
+                color: #6F6F6F;
+                
+            }
+        }
+        .Typewriter {
+            text-align: center;
+        }
+    }
+}
