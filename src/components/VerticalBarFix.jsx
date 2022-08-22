@@ -10,31 +10,31 @@ function DataFix() {
                 <img src={logo} />
             </div>
             <div className='binfo'>
-                <div>
+                <div className='binfo-link'>
                     <a href='#'>
                         <FaGithub />
-                        <p className='binfo-text'>Github</p>
+                        <p>Github</p>
                     </a>
                 </div>
-                <div>
+                <div className='binfo-link'>
                     <a href='#'>
                         <FaLinkedin/>
                         <p className='binfo-text'>Linkendin</p>
                     </a>
                 </div>
-                <div>
+                <div className='binfo-link'>
                     <a href='#'>
                         <FaEnvelope />
                         <p className='binfo-text'>Email</p>
                     </a>
                 </div>
-                <div>
+                <div className='binfo-link'>
                     <a href='#'>
                         <FaAward/>
                         <p className='binfo-text'>Medallas</p>
                     </a>
                 </div>
-                <div>
+                <div className='binfo-link'>
                     <a href='#'>
                         <FaFileContract />
                         <p className='binfo-text'>CV</p>
