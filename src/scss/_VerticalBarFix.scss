@@ -30,7 +30,10 @@ aside.bar-info {
             grid-template-columns: repeat(1, 1fr);
             gap: 1rem;     
         }
-        .binfo-text {
+        .binfo-link a {
+            text-decoration: none;
+        }
+        .binfo-link p {
             font-size: 10px;
             font-family: "Ubuntu", sans-serif;
             @media only screen and (min-width: 1024px) {
