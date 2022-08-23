@@ -1,7 +1,25 @@
+import html from "../assets/html-5.png";
+import css from "../assets/css-3.png";
+import javascript from "../assets/js.png";
+import reactjs from "../assets/react-js.png";
+import php from "../assets/php.png";
+import sass from "../assets/sass.png";
+import webpack from "../assets/webpack.png";
+import linux from "../assets/linux.png";
+import docker from "../assets/docker.png";
+import git from "../assets/git.png";
+import github from "../assets/github.png";
+import gitlab from "../assets/gitlab.png";
+import nodejs from "../assets/nodejs.png";
+import mysql from "../assets/mysql.png";
+import bootstrap from "../assets/bootstrap.png";
+import materialui from "../assets/material-ui.png";
+import tailwind from "../assets/tailwind.png";
+
 const Skillicons = [
     {
         "id" : 1,
-        "image" : "assets/html-5.png",
+        "image" : "assets/html-5.png"   ,
         "title" : "Html"
     },
     {
