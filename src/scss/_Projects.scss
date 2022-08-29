@@ -1,0 +1,40 @@
+.--projects {
+    height: 100%;
+    @media only screen and (min-width: 1024px) {
+        padding: 10rem 0rem 10rem 5rem;
+    }
+    .--project-title {
+        display: inline-grid;
+        h2{
+            border-bottom: 0.5rem solid #007ACC;
+        }  
+    }
+    .--projects-runway {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1rem 0 1rem 0;
+        @media only screen and (min-width: 1024px) {
+            grid-template-columns: repeat(3, 1fr);
+            padding: 3rem 0 3rem 0;
+        }
+        .--project-runway-content {
+            justify-content: end;
+            .--proyect-button {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+            }
+          
+            .--project-data {
+                padding: 0.5rem 0 2rem 0;
+                p {
+                    padding-bottom: 0;
+                }
+            }
+        }
+    
+    }
+    .--projects-runway > div {
+        padding: 0;   
+    }
+
+}
