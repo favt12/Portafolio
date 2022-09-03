@@ -4,6 +4,7 @@ import Home from './components/Home';
 import DataFix from './components/VerticalBarFix';
 import About from './components/About';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                 <DataFix />
                 <About />
                 <Projects />
+                <Footer />
             </React.Fragment>
         </React.StrictMode>    
     );
