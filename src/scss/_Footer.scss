@@ -1,0 +1,21 @@
+
+.--footer {
+    .--footer-content {
+        p {
+            font-size: 13px;
+            @keyframes beat {
+                from { transform: none; }
+                50% { transform: scale(1.4); }
+                to { transform: none; }
+            }
+            .heart {
+                display: inline-block;
+                font-size: 18px;
+                text-shadow: 0 0 10px #222,1px 1px  0 #450505;
+                color: red;
+                animation: beat .5s infinite;
+                transform-origin: center;
+            }
+        }
+    }
+}
