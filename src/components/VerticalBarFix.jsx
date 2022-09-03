@@ -1,5 +1,3 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaGithub, FaLinkedin, FaAward, FaEnvelope, FaFileContract } from 'react-icons/fa';
 import logo from '../assets/logo-alexisDev-azul.png';
 
