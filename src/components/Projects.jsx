@@ -11,7 +11,7 @@ function ProjectsDev(params) {
                 <Row className='--project-title'>
                     <h2>Projects</h2>
                 </Row>
-                <Row className='--projects-runway'>
+                <Row className='--projects-runway pb-5'>
                     <Row className='--project-runway-content'>
                         <Row>
                             <img src={ Project0 }/>
