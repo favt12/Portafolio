@@ -5,6 +5,11 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 5rem;
+    @media only screen and (min-width: 1024px) {
+      //background-color: #3c3c3c;
+      position: fixed;
+      width: 100%;
+    }
     .--Navbar-logo {
         @media only screen and (min-width: 1024px) {
             display: none;
@@ -31,6 +36,7 @@ header {
             position: relative;
             justify-content: end;
             margin-left: 5rem;
+            //background-color: transparent;
         }
         a {
             margin: 0 2rem;
