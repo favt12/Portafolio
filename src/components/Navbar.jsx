@@ -11,7 +11,7 @@ function Navbar() {
         navRef.current.classList.toggle('responsive_nav');
     }
     return (
-            <header className='container'>
+            <header className='px-5'>
                 <div className='--Navbar-logo'>
                     <img src={logo} alt='img'/>
                 </div>
