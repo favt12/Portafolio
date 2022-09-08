@@ -50,9 +50,6 @@ function Home() {
                     <Tab eventKey='tab-3' title='.py'>
                         Hola mundo 3
                     </Tab>
-                    <Tab eventKey='tab-4' title='.java'>
-                        Hola mundo 4
-                    </Tab>
                 </Tabs>
             </Row>
     </section>
