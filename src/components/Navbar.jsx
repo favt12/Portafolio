@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import { FaEllipsisV,FaTimes } from 'react-icons/fa';
-import { Container, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../assets/logo-alexisDev-azul.png';
 
@@ -16,9 +15,9 @@ function Navbar() {
                     <img src={logo} alt='img'/>
                 </div>
                 <nav ref={navRef}>
-                    <a href="/#">Home</a>
-                    <a href="/#about">About Me</a>
-                    <a href="/#projects">Projects</a>
+                    <a onClick={showNavbar} href="/#">Home</a>
+                    <a onClick={showNavbar} href="/#about">About Me</a>
+                    <a onClick={showNavbar} href="/#projects">Projects</a>
                     <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                         <FaTimes/>
                     </button>
