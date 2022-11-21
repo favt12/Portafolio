@@ -1,6 +1,10 @@
 
 footer {
     padding-left: 5rem;
+    display: none;
+    @media only screen and (min-width: 1024px) {
+        display: block;
+    }
     .--footer-content {
         padding: 1rem;
         border-top: 1px solid #6F6F6F;
@@ -21,5 +25,5 @@ footer {
                 transform-origin: center;
             }
         }
-    }
-}
+    }  
+}  
