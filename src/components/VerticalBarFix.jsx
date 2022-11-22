@@ -9,27 +9,21 @@ function DataFix() {
             </div>
             <div className='binfo'>
                 <div className='binfo-link'>
-                    <a href='#'>
+                    <a href='https://github.com/favt12?tab=repositories' target='_blank'>
                         <FaGithub />
                         <p>Github</p>
                     </a>
                 </div>
                 <div className='binfo-link'>
-                    <a href='#'>
+                    <a href='https://www.linkedin.com/in/alexis-vasquezt/'  target='_blank'>
                         <FaLinkedin/>
                         <p className='binfo-text'>Linkendin</p>
                     </a>
                 </div>
                 <div className='binfo-link'>
-                    <a href='#'>
+                    <a href='mailto:soporte@alexisvasquezdev.com'>
                         <FaEnvelope />
                         <p className='binfo-text'>Email</p>
-                    </a>
-                </div>
-                <div className='binfo-link'>
-                    <a href='#'>
-                        <FaAward/>
-                        <p className='binfo-text'>Medallas</p>
                     </a>
                 </div>
                 <div className='binfo-link'>
