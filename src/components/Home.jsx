@@ -22,6 +22,12 @@ function Home() {
                             <Col xs={11}>
                                     <p className='idioms-text-formt margTop padd-l'><b className='color-ocher'>and I am a Web Developer' </b><b className='color-mustard'>)</b>;</p>
                             </Col>
+                            <Col xs={1}>
+                                    <p className='text-center color-gray margTop idioms-text-formt'>3</p>
+                            </Col>
+                            <Col xs={11}>
+                                    <p></p>
+                            </Col>
                         </Row>
                         <Row>
                             <Col className='typewr'>
