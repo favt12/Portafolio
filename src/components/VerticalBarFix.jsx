@@ -26,12 +26,6 @@ function DataFix() {
                         <p className='binfo-text'>Email</p>
                     </a>
                 </div>
-                <div className='binfo-link'>
-                    <a href='#'>
-                        <FaFileContract />
-                        <p className='binfo-text'>CV</p>
-                    </a>
-                </div>
             </div>
         </aside>
     )
