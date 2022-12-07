@@ -40,6 +40,9 @@ aside.bar-info {
                 line-height: 1.2rem;
             }
         } 
+        .binfo-link p:hover {
+            border-bottom: 1px solid #007ACC ;
+        }
     }
     .binfo > div {
         font-size: 1.2rem;
