@@ -1,5 +1,6 @@
 import { Container, Row, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FaExternalLinkAlt, FaColumns } from "react-icons/fa";
 import Project0 from '../assets/projects0.png';
 import Project1 from '../assets/projects1.webp';
 import Project2 from '../assets/projects2.webp';
@@ -18,10 +19,10 @@ function ProjectsDev(params) {
                         </Row>
                         <Row className='--proyect-button py-2'>
                             <div>
-                                <Button href='https://github.com/' target='_blank'  size="sm" variant="outline-light">Código</Button>
+                                <Button href='https://github.com/' target='_blank'  size="sm" variant="secondary">Código <FaExternalLinkAlt/></Button>
                             </div>
                             <div>
-                                <Button href='https://github.com/' target='_blank'  size="sm" variant="outline-light">Demo</Button>
+                                <Button href='https://github.com/' target='_blank'  size="sm" variant="secondary">Demo <FaColumns/></Button>
                             </div>
                         </Row>
                         <Row className='--project-data'>
@@ -35,10 +36,10 @@ function ProjectsDev(params) {
                         </Row>
                         <Row className='--proyect-button py-2'>
                             <div>
-                                <Button href='https://github.com/' target='_blank'  size="sm" variant="outline-light">Código</Button>
+                                <Button href='https://github.com/' target='_blank'  size="sm" variant="secondary">Código <FaExternalLinkAlt/></Button>
                             </div>
                             <div>
-                                <Button href='https://github.com/' target='_blank'  size="sm" variant="outline-light">Demo</Button>
+                                <Button href='https://github.com/' target='_blank'  size="sm" variant="secondary">Demo <FaColumns/></Button>
                             </div>
                         </Row>
                         <Row className='--project-data'>
@@ -52,10 +53,10 @@ function ProjectsDev(params) {
                         </Row>
                         <Row className='--proyect-button py-2'>
                             <div>
-                                <Button href='https://github.com/' target='_blank'  size="sm" variant="outline-light">Código</Button>
+                                <Button href='https://github.com/' target='_blank'  size="sm" variant="secondary">Código <FaExternalLinkAlt/></Button>
                             </div>
                             <div>
-                                <Button href='https://github.com/' target='_blank'  size="sm" variant="outline-light">Demo</Button>
+                                <Button href='https://github.com/' target='_blank'  size="sm" variant="secondary">Demo <FaColumns/></Button>
                             </div>
                         </Row>
                         <Row className='--project-data'>
