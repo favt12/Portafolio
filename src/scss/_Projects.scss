@@ -1,5 +1,6 @@
 .--projects {
     height: 100%;
+    padding-top: 6rem;
     @media only screen and (min-width: 1024px) {
         padding: 10rem 0rem 45rem 5rem;
     }
@@ -21,7 +22,7 @@
             justify-content: end;
             .--proyect-button {
                 display: grid;
-                grid-template-columns: repeat(5, 1fr);
+                grid-template-columns: repeat(2, 1fr);
             }
           
             .--project-data {
