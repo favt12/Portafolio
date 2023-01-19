@@ -23,7 +23,7 @@ function DataFix() {
                     </a>
                 </div>
                 <div className='binfo-link'>
-                    <a href='mailto:soporte@alexisvasquezdev.com'>
+                    <a href='mailto:contacto@alexisvasquezdev.com'>
                         <FaEnvelope />
                         <p className='binfo-text'>Email</p>
                     </a>
