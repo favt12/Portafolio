@@ -5,7 +5,9 @@ function DataFix() {
     return(
         <aside className='bar-info text-center'>
             <div className='binfo-logo'>
+                <a href='/'>
                 <img src={logo} />
+                </a>
             </div>
             <div className='binfo'>
                 <div className='binfo-link'>
