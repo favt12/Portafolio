@@ -6,6 +6,15 @@ import JsIconTab from '../assets/js_tabs.png';
 import HtmlIconTab from '../assets/html_tab.png';
 import PhpIconTab from '../assets/php_tabs.png';
 
+function TypewriterEffect({ text, pauseDuration }) {
+        return (
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter.typeString(text).pauseFor(pauseDuration).start();
+            }}
+          />
+        );
+      }
 
 function Home() {
   return (
@@ -39,17 +48,7 @@ function Home() {
                                     <small>Console</small>
                                 </div>
                                 <div className='--padding-tb'>
-                                    <Typewriter
-                                
-                                    onInit={(typewriter)=> {
-                                
-                                    typewriter
-                                        
-                                    .typeString('My name is Alexis Vásquez and I am a Web Developer')   
-                                    .pauseFor(800)
-                                    .start();
-                                    }}
-                                    />
+                                        <TypewriterEffect text="My name is Alexis Vásquez and I am a Web Developer" pauseDuration={800} />
                                 </div>
                             </Col>
                         </Row>       
@@ -81,17 +80,7 @@ function Home() {
                                     <small>Console</small>
                                 </div>
                                 <div className='--padding-tb'>
-                                    <Typewriter
-                                
-                                    onInit={(typewriter)=> {
-                                
-                                    typewriter
-                                        
-                                    .typeString('I love technology')   
-                                    .pauseFor(800)
-                                    .start();
-                                    }}
-                                    />
+                                        <TypewriterEffect text="I love technology" pauseDuration={800} />
                                 </div>
                             </Col>
                         </Row>    
@@ -123,17 +112,7 @@ function Home() {
                                     <small>Console</small>
                                 </div>
                                 <div className='--padding-tb'>
-                                    <Typewriter
-                                
-                                    onInit={(typewriter)=> {
-                                
-                                    typewriter
-                                        
-                                    .typeString('And I am passionate about what I do')   
-                                    .pauseFor(800)
-                                    .start();
-                                    }}
-                                    />
+                                        <TypewriterEffect text="And I am passionate about what I do" pauseDuration={800} />
                                 </div>
                             </Col>
                         </Row>  
